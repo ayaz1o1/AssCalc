@@ -1,4 +1,3 @@
-
 var value1 ;
 var value2 ;
 var operator ;
@@ -16,6 +15,13 @@ function clr(){
    var result = document.getElementById('res');
     result.value = "";
 }
+
+function equal(){
+   var result = document.getElementById('res');
+    
+   result.value = eval(result.value);
+    
+       }
 
 // function one(){
 //    var valu = 1;
