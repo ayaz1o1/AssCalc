@@ -5,8 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="main">
+<div>
+<input class="result" maxlength="25" id="res" type="text">
+</div>
+<hr>
+<div>
+<button class="btn" id="clrbtn" onClick="clr()">C</button>
+</div>
+    <div>
+        <button class="btn" id="seven" onClick="getNumber(7)">7</button>
+        <button class="btn" id="eight" onClick="getNumber(8)">8</button>
+        <button class="btn" id="nine" onClick="getNumber(9)">9</button>
+        <button class="btn" id="x" onClick="getNumber('*')">x</button>
+    </div>
+    <div>
+        <button class="btn" id="four" onClick="getNumber(4)">4</button>
+        <button class="btn" id="five" onClick="getNumber(5)">5</button>
+        <button class="btn" id="six" onClick="getNumber(6)">6</button>
+        <button class="btn" id="divide" onClick="getNumber('/')">/</button>
+    </div>
+    <div>
+        <button class="btn" id="one" onClick="getNumber(1)">1</button>
+        <button class="btn" id="two" onClick="getNumber(2)">2</button>
+        <button class="btn" id="three" onClick="getNumber(3)">3</button>
+        <button class="btn" id="plus" onClick="getNumber('+')">+</button>
+    </div>
+    <div>
+        <button class="btn" id="pm" onClick="pm()">+/-</button>
+        <button class="btn" id="dot" onClick="getNumber('.')">.</button>
+        <button class="btn" id="zero" onClick="getNumber(0)">0</button>
+        <button class="btn" id="minus" onClick="getNumber('-')">-</button>
+    </div>
+<div>
+<button class="equals" id="equal" onClick="equal()">=</button>
+</div>
+</div>
 </body>
 </html>
