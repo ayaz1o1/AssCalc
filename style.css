@@ -1,1 +1,48 @@
 
+body
+{
+font-size: 4px;
+}
+
+.btn
+{
+    border-spacing: 0px;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    /* text-align: center; */
+    width: 72px;
+    height: 72px;
+    background-color: lightgray;
+}
+
+.main
+{
+border: 5px solid black;
+width: 300px;
+height: 450px;
+margin: 0 auto;
+/* padding: 1px; */
+text-align: center;
+    
+}
+
+.result
+{
+width: 98%;
+margin: 2px;
+border: 1px solid black;
+height: 50px;
+font-size: 40px;
+}
+
+
+.equals
+{
+width: 58.4%;
+}
+
+#clrbtn
+{
+position: relative;
+margin-right: 74%;
+}
