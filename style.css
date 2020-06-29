@@ -1,8 +1,12 @@
-
 body
 {
 font-size: 4px;
+
 }
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('digital-7/digital-7.ttf');
+   }
 
 .btn
 {
@@ -12,6 +16,7 @@ font-size: 4px;
     /* text-align: center; */
     width: 72px;
     height: 72px;
+    font-size: 30px;
     background-color: lightgray;
 }
 
@@ -20,6 +25,7 @@ font-size: 4px;
 border: 5px solid black;
 width: 300px;
 height: 450px;
+background-color: lightblue;
 margin: 0 auto;
 /* padding: 1px; */
 text-align: center;
@@ -30,8 +36,9 @@ text-align: center;
 {
 width: 98%;
 margin: 2px;
+background-color: lightgrey;
 border: 1px solid black;
-height: 50px;
+height: 75px;
 font-size: 40px;
 }
 
